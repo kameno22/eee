@@ -13,3 +13,10 @@ function evaluateExpression() {
 try {
 var expression = document.getElementById('expression').value; var result = eval(expression);
 document.getElementById('result').innerText = 'Result: ' + result;
+} catch (error) {
+document.getElementById('result').innerText = 'Invalid expression";
+}
+}
+</script>
+</body>
+</html>
