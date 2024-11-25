@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
 <title>Math Expression Evaluator</title>
+</head>
 <body>
 <form id="mathForm">
 <label for="expression">Enter Mathematical Expression:</label> <input type="text" id="expression" name="expression">
